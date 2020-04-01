@@ -1,3 +1,8 @@
 __pycache__
 .ipynb_checkpoints
 .vscode
+dataset
+pretrained
+logs
+model_frcnn.vgg.hdf5
+*.pickle

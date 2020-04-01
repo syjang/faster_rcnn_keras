@@ -45,10 +45,10 @@ def classifier(base_layers, input_rois, num_rois, nb_classes=21, trainable=False
     return [out_class, out_regr]
 
 
-input_shape_img = (None, None, 3)
-img_input = layers.Input(shape=input_shape_img)
-roi_input = layers.Input(shape=(C.num_rois, 4))
-feature_map_input = layers.Input(shape=input_shape_features)
+# input_shape_img = (None, None, 3)
+# img_input = layers.Input(shape=input_shape_img)
+# roi_input = layers.Input(shape=(C.num_rois, 4))
+# feature_map_input = layers.Input(shape=input_shape_features)
 
-resnet = tf.keras.applications.ResNet50()
-x = resnet(input)
+# resnet = tf.keras.applications.ResNet50()
+# x = resnet(input)
